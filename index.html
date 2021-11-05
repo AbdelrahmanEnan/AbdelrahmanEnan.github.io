@@ -4,166 +4,168 @@
         <!--
             Name:           Abdelrahman Enan
             Course Code:    CS412
-            Assignment:     Project I
-            Due date:       22/10/2021
+            Assignment:     Project II
+            Due date:       05/11/2021
             Professor:      Ali Almisreb
-
-        ## The next code is just for me to prctice what goes in head section
-        <style> 
-            body {background-color: powderblue;} 
-            h1 {color: red;} 
-            p {color: blue;} 
-        </style>
-        <link rel="stylesheet" href="mystyle.css">
         -->
-        <meta charset="UTF-8">
         <title>CV</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="myStyle.css">
     </head>
+
     <body>
-        <h1>Abdelrahman Enan</h1>
-            <div style="width :20%; height : 250px ;float: right;">
+        
+        <div class="all">
+            <div class="split">
+                <div class="left">
+                    <div class="leftText" >
+                        <div class="imeg">
+                            <img src="Personal Photo.jpg" alt="Personal photo of Abdelrahman Enan">
+                        </div>
+                        <h1>Abdelrahman Enan<br><span>Mechanical Engineer</span></h1>
+                    </div>
+                </div>
+                <div class="right">
+                    <h2>Personal Information</h2>
+                    <dl>
+                        <dt><strong>Adress:</strong></dt>
+                        <dd> Ferhat paše Sokolovića, 71210 Ilidža, Bosnia and  Herzegovina</dd>
+                        <dt><strong>Phone:</strong></dt>
+                        <dd> +38762475982</dd>
+                        <dt><strong>Email:</strong></dt>
+                        <dd><a href="mailto:a.enan7140@gmail.com"> Click to email me.</a></dd><!--To prctice hyperlinks-->
+                        <dt><strong>Nationality:</strong></dt>
+                        <dd> Egyptian</dd>
+                        <dt><strong>Date of Birth:</strong></dt>
+                        <dd><em> 14/07/1997</em></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="after">
+                <h2>Resume Objective</h2>
+                <p>I am a fresh graduate from the International 
+                    University of Sarajevo with a Bachelor's degree 
+                    in  Mechanical Engineering with a GPA of 3.25. 
+                    I have excellent 3D design and modeling skills 
+                    in  AutoCAD and SOLIDWORKS, and programming knowledge 
+                    in C++. As for my personal skills, I am  dedicated 
+                    and always motivated to learn and solve problems. 
+                    I can work efficiently either individually  
+                    or as a team member. Interested in working in 
+                    engineering design (3D modelling), and/or fluid  mechanics fields.
+                </p>
                 <br>
-                <img src="Personal Photo.jpg" alt="Personal photo of Abdelrahman Enan" width="144px" height="196px">
             </div>
 
-        <div style="width :80%; height : 250px; float: left;">
-            <dl>
-                <dt><strong>Address</strong></dt>
-                <dd>Ferhat paše Sokolovića, 71210 Ilidža, Bosnia and  Herzegovina</dd>
-                <dt><strong>Phone</strong></dt>
-                <dd>+38762475982</dd>
-                <dt><strong>Email</strong></dt>
-                <dd><a href="mailto:a.enan7140@gmail.com">Click to email me.</a></dd><!--To prctice hyperlinks-->
-                <dt><strong>Nationality</strong></dt>
-                <dd>Egyptian</dd>
-                <dt><strong>Date of Birth</strong></dt>
-                <dd><em>14/07/1997</em></dd>
-            </dl>
-        </div>
-        <!--<strong>Adress</strong><br>
-        <blockquote>Ferhat paše Sokolovića, 71210 Ilidža, Bosnia and  Herzegovina</blockquote>
-        <strong>Phone</strong><br>
-        <blockquote>+38762475982</blockquote>
-        <strong>Email</strong><br>
-        <blockquote><a href="mailto:a.enan7140@gmail.com">Click to email me.</a><!--To prctice hyperlinks</blockquote>
-        <strong>Nationality</strong><br>
-        <blockquote>Egyptian</blockquote>
-        <strong>Date of Birth</strong><br>
-        <blockquote><em>14/07/1997</em></blockquote>-->
+            <div class="after">
+                <h2>Work Experience</h2>
+                <p style = "text-align: right;"> 03/2021 - 06/2021</p>
+                <p><strong>IUS(RDC), Sarajevo</strong></p>
+                <p>Internship Engineer</p>
+                <ul>
+                    <li>Computer aided design, engineering, and manufacturing using SolidWorks, and Cura software.</li>
+                    <li>Building robots and its controlling them with the help of Arduino IDE and MATLAB software and  its tools (Simulink and GUI).</li>
+                    <li>Assembling and disassembling some old electrical devices to develop a general understanding of  their structure, the components used inside, and the electrical connections between these  components.</li>
+                </ul>
+                <p style = "text-align: right;"> 10/2021 - persent</p>
+                <p><strong>IUS, Sarajevo</strong></p>
+                <p>Research Assistance</p>
+                <ul>
+                    <li>Constructing tutorial sessions.</li>
+                    <li>Student assesting.</li>
+                </ul>
+            </div>
+            
+            <div class="after">
+                <h2>Education</h2>
+                <p style = "text-align: right;"> 10/2017 - 07/2021</p>
+                <p><strong>International University of Sarajevo</strong></p>
+                <p style="padding: 0px 40px">Bachelor of Science, Bachelor's degree in Mechanical Engineering with a GPA of 3.25.</p> 
+                <br>
+                <p style = "text-align: right;"> 10/2017 - 07/2021</p>
+                <p><strong>Al-Saif Private Secondary School</strong></p>
+                <p style="padding: 0px 40px">Completion Certification of Secondary Stage, Kuwait</p>
+                <br>
+            </div>
+            
+            <div class="after">
+                <h2>Languages</h2>
+                <div style="width: 20%; float: left;">
+                    <p>Arabic</p>
+                    <p>English</p>
+                    <p>Bosnian</p>
+                </div>
+                <div style="width: 80%; float: left;">
+                    <p>Native Speaker</p>
+                    <p>C1</p>
+                    <p>A2</p>
+                    <br>
+                </div>
+                <br>
+            </div>
 
-        <h2>Resume Objective</h2>
-        <hr>
-        <p>I am a fresh graduate from the International 
-            University of Sarajevo with a Bachelor's degree 
-            in  Mechanical Engineering with a GPA of 3.25. 
-            I have excellent 3D design and modeling skills 
-            in  AutoCAD and SOLIDWORKS, and programming knowledge 
-            in C++. As for my personal skills, I am  dedicated 
-            and always motivated to learn and solve problems. 
-            I can work efficiently either individually  
-            or as a team member. Interested in working in 
-            engineering design (3D modelling), and/or fluid  mechanics fields.
-        </p>
-        <br>
+            <div class="after">
+                <h2>Skills</h2>
+                <h3>Software Skills:</h3>
+                <div style="width: 30%; float: left;">
+                    <ul>
+                        <li>AutoCAD</li>
+                        <li>SOLIDWORKS</li>
+                        <li>Revet</li>
+                        <li>Google SketchUp</li>
+                        <li>SimScale</li>
+                        <li>T-Flows</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>Arduino</li>
+                        <li>MATLAB</li>
+                        <li>Microsoft Excel</li>
+                    </ul>
+                </div>
+                <div style="width: 70%; float: left;">
+                    <ul type = "none">
+                        <li>Skillful</li>
+                        <li>Experienced</li>
+                        <li>Intermediate</li>
+                        <li>Intermediate</li>
+                        <li>Intermediate</li>
+                        <li>Beginner</li>
+                        <li>Skillful</li>
+                        <li>Beginner</li>
+                        <li>Skillful</li>
+                        <li>Intermediate</li>
+                        <li>Intermediate</li>
+                    </ul>
+                </div>
+                <h3>Personal Skills:</h3>
+                <div style="width: 30%; float: left;">
+                    <ul>
+                        <li>Problem-Solving</li>
+                        <li>Aspiration to learn</li>
+                        <li>Leadership</li>
+                        <li>Team worker</li>
+                        <li>Dedicated</li>
+                    </ul>
+                </div>
+                <div style="width: 70%; float: left;">
+                    <ul type = "none">
+                        <li>Skillful</li>
+                        <li>Experienced</li>
+                        <li>Skillful</li>
+                        <li>Skillful</li>
+                        <li>Skillful</li>
+                    </ul>
+                </div>
+            </div>
 
-        <h2>Work Experience</h2>
-        <hr>
-        <p style = "text-align: right;"> 03/2021 - 06/2021</p>
-        <p><strong>IUS(RDC), Sarajevo</strong></p>
-        <p>Internship Engineer</p>
-        <ul>
-            <li>Computer aided design, engineering, and manufacturing using SolidWorks, and Cura software.</li>
-            <li>Building robots and its controlling them with the help of Arduino IDE and MATLAB software and  its tools (Simulink and GUI).</li>
-            <li>Assembling and disassembling some old electrical devices to develop a general understanding of  their structure, the components used inside, and the electrical connections between these  components.</li>
-        </ul>
-        <br>
-
-        <h2>Education</h2>
-        <hr>
-        <p style = "text-align: right;"> 10/2017 - 07/2021</p>
-        <p><strong>International University of Sarajevo</strong></p>
-        <p>Bachelor of Science, Bachelor's degree in Mechanical Engineering with a GPA of 3.25.</p> 
-        <br>
-        <p style = "text-align: right;"> 10/2017 - 07/2021</p>
-        <p><strong>Al-Saif Private Secondary School</strong></p>
-        <p>Completion Certification of Secondary Stage, Kuwait</p>
-        <br>
-
-        <h2>Languages</h2>
-        <hr>
-        <div style="width: 20%; float: left;">
-            <p>Arabic</p>
-            <p>English</p>
-            <p>Bosnian</p>
+            <div class="after">
+                <h2>Interests</h2>
+                <ul>
+                    <li>Swimming</li>
+                    <li>Reading</li>
+                </ul>
+            </div>
         </div>
-        <div style="width: 80%; float: left;">
-            <p>- Native Speaker</p>
-            <p>- C1</p>
-            <p>- A2</p>
-        </div>
-        <br>
-
-        <h2>Skills</h2>
-        <hr>
-        <h3>Software Skills:</h3>
-        <div style="width: 20%; float: left;">
-            <ul>
-                <li>AutoCAD</li>
-                <li>SOLIDWORKS</li>
-                <li>Revet</li>
-                <li>Google SketchUp</li>
-                <li>SimScale</li>
-                <li>T-Flows</li>
-                <li>C++</li>
-                <li>Python</li>
-                <li>Arduino</li>
-                <li>MATLAB</li>
-                <li>Microsoft Excel</li>
-            </ul>
-        </div>
-        <div style="width: 80%; float: left;">
-            <ul type = "none">
-                <li>-  Skillful</li>
-                <li>-  Experienced</li>
-                <li>-  Intermediate</li>
-                <li>-  Intermediate</li>
-                <li>-  Intermediate</li>
-                <li>-  Beginner</li>
-                <li>-  Skillful</li>
-                <li>-  Beginner</li>
-                <li>-  Skillful</li>
-                <li>-  Intermediate</li>
-                <li>-  Intermediate</li>
-            </ul>
-        </div>
-        <h3>Personal Skills:</h3>
-        <div style="width: 20%; float: left;">
-            <ul>
-                <li>Problem-Solving</li>
-                <li>Aspiration to learn</li>
-                <li>Leadership</li>
-                <li>Team worker</li>
-                <li>Dedicated</li>
-            </ul>
-        </div>
-        <div style="width: 80%; float: left;">
-            <ul type = "none">
-                <li>-  Skillful</li>
-                <li>-  Experienced</li>
-                <li>-  Skillful</li>
-                <li>-  Skillful</li>
-                <li>-  Skillful</li>
-            </ul>
-        </div>
-        <br>
-
-        <h2>Interests</h2>
-        <hr>
-        <ul>
-            <li>Swimming</li>
-            <li>Reading</li>
-        </ul>
-        <br>
-
     </body>
 </html>
